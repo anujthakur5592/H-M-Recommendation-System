@@ -1,2 +1,2 @@
-# H-M-Recommendation-System
+# H&M-Recommendation-System
 Intro
