@@ -14,6 +14,7 @@ This H&M recommendation system project has been successful in achieving the goal
 2) Data Processing Pipeline
 3) Applied Models and Model Results
  
+<img width="398" alt="Picture1" src="https://github.com/anujthakur5592/H-M-Recommendation-System/assets/166769513/42743d02-acfe-462d-8a51-530987de70fc">
 
 # Data Description
 - DTotal No of customers: 1371980 
@@ -30,6 +31,7 @@ Some high-level ideas behind ALS are
 - Its objective function is slightly different than Funk SVD: ALS uses L2 regularization while Funk uses L1 regularization.
 -This technique can also be used for different types of noise as well as different variations of each noise.
 -Its training routine is different: ALS minimizes two loss functions alternatively; It first holds the user matrix fixed and runs gradient descent with the item matrix; then it holds the item matrix fixed and runs gradient descent with the user matrix. Its scalability, ALS runs its gradient descent in parallel across multiple partitions of the underlying training data from a cluster of machines. 
+![Untitled](https://github.com/anujthakur5592/H-M-Recommendation-System/assets/166769513/fe377eaa-f3a9-4e15-b827-453646a2531a)
 
 # Conclusion
 - Major Outcome:
